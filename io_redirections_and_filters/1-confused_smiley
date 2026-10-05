@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" "\"(Ôo)'"
+printf '(\u00D4o)\047\n'

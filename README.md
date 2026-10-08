@@ -1,2 +1,0 @@
-# Gestionando con Shell
-

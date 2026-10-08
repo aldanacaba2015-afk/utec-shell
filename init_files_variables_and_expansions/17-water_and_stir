@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=9; $(( 5#$(echo $WATER | tr 'water' '01234') + 6#$(echo $STIR | tr 'stir.' '012345') ))" | bc | tr '0-8' 'bestchol' && echo "" || true
+printf "%s\n" "$(( 5#$(echo $WATER | tr 'water' '01234') + 6#$(echo $STIR | tr 'stir.' '012345') ))" | tr '0123456789' 'bestchol'
